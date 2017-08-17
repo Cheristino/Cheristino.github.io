@@ -39,7 +39,7 @@
 	*/
 	.portfolio-content {   /* 文本内容  */
 	border-left              : 10px;
-	font-size                : 1.5rem;
+	font-size                : 1.0rem;
 	color                    : black;
 	padding                  : 0;
 	border                   : 0;  	
@@ -51,8 +51,9 @@
 	}
 
 	.portfolio-content img {  /* 文本内图片 */
-	width                       : 946.5px;
-	height 		                : 452.5px; 	
+	align-self                  : center;
+	max-width                       : 946.5px;
+	max-height 		                : 452.5px; 	
 	}	
 	
 	h1 {     /* post title */  
@@ -212,9 +213,9 @@
 	}
 
 	.page-nav a,span {
-	font-size                     : 1.5rem;
+	font-size                     : 0.01rem;
 	font-family                   : 'Crimson Text', sans-serif;
 	font-weight                   : 500;
-	margin                        : 0 10px;
+	margin                        : 0 .10px;
 	color                         : #FF0;
 	}
